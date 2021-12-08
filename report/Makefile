@@ -30,8 +30,8 @@ SPLITPGM = perl ../tools/splitAndIndexPgm
 RM    = rm -f
 CP    = cp
 LN    = ln -sf
-LATEX = latex
-PDFLATEX = pdflatex
+LATEX = latex -interaction=nonstopmode
+PDFLATEX = pdflatex -interaction=nonstopmode
 BIBTEX = bibtex
 MAKEINDEX = makeindex
 
