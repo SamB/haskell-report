@@ -11,5 +11,7 @@ RUN sudo apt-get update
 RUN sudo apt-get install -y haskell-platform flex
 
 # pdflatex, makeidx, graphicx, url, color, hyperref -- also pulls makeindex in from texlive-binaries
-RUN sudo apt-get install -y texlive-latex-base
+#RUN sudo apt-get install -y texlive-latex-base
 
+# Heck that, lets just try:
+RUN sudo apt-get install -y texlive
